@@ -8,7 +8,7 @@ The pipeline processes Airbnb listings, bookings, and hosts data through a medal
 
 ## 🏗️ Architecture
 
-### Data Flow
+### DataFlow
 ```
 Source Data (CSV) → AWS S3 → Snowflake (Staging) → Bronze Layer → Silver Layer → Gold Layer
                                                            ↓              ↓           ↓
